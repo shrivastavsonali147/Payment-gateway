@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 57px;
+    left: 58px;
+}
+
+.left div{
+    font-size: 25px;
+    color: sandybrown;
+    width: 100px;
+}
+
+.left img{
+    background:salmon;
+    width:80px;
+}
+
+button:hover{
+	transform: scale(2);
+}
+
+
+.btn{
+	border:none;
+	padding: 10px;
+	background:#9dc728; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	margin: 8px 0;
+	cursor:pointer;
+	border-radius: 25px;
+}
+
+.background{
+	background:#EEEEEE url("https://media.istockphoto.com/photos/child-and-parent-hands-holding-money-jar-donation-saving-charity-picture-id1216694114?k=6&m=1216694114&s=612x612&w=0&h=O5JQykE4hwNlBgggpdqWWyBS95venYmiS3VZ_ssveH4=") ;
+	background-size:cover;
+	background-repeat: no-repeat;
+        
+	background-blend-mode:darken;
+}
+
+.content{
+	min-height:93vh;
+}
+
+img{
+	width: 300px;	
+	opacity: 0.8;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: center;	
+}
+
+.white{
+	color: black;
+	text-align: center;
+}
+
+.navbar{
+    display: flex;
+	padding:50px;
+}
+
+.nav-list{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a{
+    text-decoration: underline;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: blue;
+}
+
+.clickme {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.con{
+	position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    width: 800px;
+    border: 10px solid greenyellow;
+    padding: 30px;
+    margin: 15px;
+}
+
+
+footer{
+	text-align: center;
+	background-color: rgba(63, 191, 191, 1);
+	overflow: hidden;
+	padding-top: 5px;	
+}
